@@ -14,7 +14,7 @@
 
 ---
 
-## Objetivo dfe la app
+## Objetivo de la app
 Este proyecto consiste en el desarrollo de una aplicación móvil y un sitio web para monitorear y visualizar las rutas de los camiones urbanos en Mexicali. La idea principal es ayudar a los usuarios a revisar los horarios y trayectos para que optimicen sus tiempos y no tengan que esperar bajo el calor extremo de la ciudad.
 
 ---
