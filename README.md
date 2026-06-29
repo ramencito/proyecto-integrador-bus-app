@@ -1,4 +1,4 @@
-# proyecto-integrador-bus-app
+# proyecto-integrador-BusMXL
 
 * **Escuela:** Universidad Politécnica de Baja California
 * **Carrera:** Ingeniería en tecnologías de la información e innovación dígital
