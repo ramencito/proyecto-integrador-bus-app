@@ -2,20 +2,14 @@ import os
 import threading
 from flask import Flask, send_from_directory
 import webview
-
-# 1. CREAMOS EL SERVIDOR WEB LOCAL INVISIBLE
 server = Flask(__name__)
 
-# Permitir que el servidor busque las imágenes en tu carpeta actual
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 @server.route('/assets/<path:filename>')
 def serve_assets(filename):
     return send_from_directory(BASE_DIR, filename)
 
-
-# ==========================================
 # PANTALLA 1: BIENVENIDA / INGRESO
-# ==========================================
 @server.route('/')
 def pantalla_bienvenida():
     html_bienvenida = """
@@ -60,10 +54,7 @@ def pantalla_bienvenida():
     """
     return html_bienvenida
 
-
-# ==========================================
 # PANTALLA 2: MAPA INTERACTIVO PRINCIPAL
-# ==========================================
 @server.route('/mapa')
 def pantalla_mapa():
     html_mapa = """
