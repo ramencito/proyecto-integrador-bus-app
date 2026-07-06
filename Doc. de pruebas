@@ -1,0 +1,25 @@
+# Avance: Documentación de Pruebas - BusMXL
+
+## 1. Introducción a las Pruebas de Funcionalidad
+En esta etapa del proyecto, el enfoque principal de las pruebas se centra en validar los componentes críticos de la interfaz y la respuesta del sistema ante las interacciones principales del usuario. Las pruebas se dividen en dos categorías esenciales:
+
+*   **Funcionalidad del Mapa:** Validación de la carga correcta de la API del mapa, renderizado de las rutas de transporte urbano en tiempo real, precisión de la geolocalización del usuario y actualización fluida del marcador de posición.
+*   **Interactividad de Botones:** Verificación de la respuesta táctil y de clics en todos los elementos de navegación, botones de búsqueda de rutas, filtros de camiones y el menú de configuración de la interfaz.
+
+---
+
+## 2. Usuarios y Experiencias de Uso
+A continuación, se recopilan los escenarios de prueba y el feedback inicial de los usuarios que interactuaron con la plataforma:
+
+*   **Usuario 1:** Logró visualizar de forma correcta las rutas disponibles cercanas a su ubicación. Reportó que el mapa responde rápido al hacer zoom, aunque experimentó un ligero retraso al cambiar entre rutas de camiones muy saturadas.
+*   **Usuario 2:** Probó la responsividad de los botones principales en un dispositivo móvil. Destacó que el diseño de los botones es intuitivo y fácil de presionar durante el trayecto, facilitando la navegación sin perderse en menús complejos.
+*   **Usuario 3:** Se enfocó en la precisión del tiempo estimado de llegada. Mencionó que la interfaz cumple con mostrar los datos necesarios, pero sugirió mejorar la visibilidad de los marcadores cuando hay múltiples rutas superpuestas.
+
+---
+
+## 3. Notas y Correcciones Pendientes
+Derivado de las experiencias anteriores y revisiones técnicas, se detallan los siguientes puntos a corregir:
+
+*   **Corrección:** Optimizar la velocidad de renderizado de las líneas de ruta en el mapa para evitar caídas de rendimiento.
+*   **Ajuste de UI:** Incrementar ligeramente el contraste de color en los botones principales de filtrado para mejorar la accesibilidad en exteriores bajo la luz del sol.
+*   **Nota:** Asegurar el manejo de excepciones en caso de que el usuario deniegue los permisos de ubicación o la señal de GPS sea inestable.
