@@ -1,4 +1,5 @@
-Al evaluar la interfaz de nuestra aplicación considerando su contexto operativo real (ayudar a los usuarios a consultar rutas de transporte de forma rápida en Mexicali), la interfaz muestra una evolución muy funcional, pasando de un inicio minimalista a un módulo de mapas detallado.
+Al evaluar la interfaz de nuestra aplicación considerando su contexto operativo real (ayudar a los usuarios a consultar rutas de transporte de forma rápida en Mexicali), la interfaz muestra una evolución muy funcional,
+pasando de un inicio minimalista a un módulo de mapas detallado.
 Los siguientes puntos fueron recopilados y resumidos a traves de pruebas de interacción del usuario con nuestra aplicación y proporcionando retroalimentación de comentarios, opiniones y sugerencias a nuestro proyecto.
 El objetivo de estas pruebas van con la finalidad de buscar oportunidades de mejora e innovación en el proyecto y que mejor que poniéndolo a prueba con el usuario.
 
@@ -23,9 +24,11 @@ Esta es la vista operativa central y el núcleo del valor del proyecto. La dispo
 
 Puntos Fuertes (UI/UX):
 
-Diseño "Bottom Sheet" Efectivo: Colocar la información de la parada en una tarjeta desplegable en la parte inferior de la pantalla es una excelente práctica de diseño móvil moderno. Permite al usuario interactuar cómodamente con una sola mano.
+Diseño "Bottom Sheet" Efectivo: Colocar la información de la parada en una tarjeta desplegable en la parte inferior de la pantalla es una excelente práctica de diseño móvil moderno.
+Permite al usuario interactuar cómodamente con una sola mano.
 
-Uso Excepcional de la Información Crítica: Mostrar los minutos restantes para los siguientes arribos ("Próximo Autobús: Ruta 9 - 7 min") es el dato de mayor valor para el usuario. El uso de iconos (el reloj de arena y el autobús) rompe la monotonía del texto y agiliza la lectura rápida bajo el sol o en movimiento.
+Uso Excepcional de la Información Crítica: Mostrar los minutos restantes para los siguientes arribos ("Próximo Autobús: Ruta 9 - 7 min") es el dato de mayor valor para el usuario. 
+El uso de iconos (el reloj de arena y el autobús) rompe la monotonía del texto y agiliza la lectura rápida bajo el sol o en movimiento.
 
 Contexto Geográfico Real: El mapa sitúa perfectamente puntos de referencia locales (como el Blvd. Benito Juárez y la Calzada Independencia), permitiendo al usuario validar visualmente dónde se encuentra la parada "Frente a UABC".
 
@@ -35,6 +38,7 @@ Contraste de la etiqueta del mapa: El texto "Parada UABC - Línea 9" sobre el ma
 
 Barra de Búsqueda: El cuadro de texto superior es funcional, pero estéticamente se beneficiaría de esquinas ligeramente redondeadas (border-radius) y una sombra sutil para integrarse mejor al estilo de diseño moderno de la tarjeta inferior.
 
-La interfaz cumple con creces el objetivo de una aplicación de utilidad: es directa, prioriza los datos de tiempo y ubica geográficamente los paraderos clave. La transición entre ambas vistas es lógica. Implementar pequeños detalles visuales (como esquinas redondeadas en componentes y unificación estricta de la paleta de colores turquesa) elevará la calidad estética del prototipo.
+La interfaz cumple con creces el objetivo de una aplicación de utilidad: es directa, prioriza los datos de tiempo y ubica geográficamente los paraderos clave. La transición entre ambas vistas es lógica.
+Implementar pequeños detalles visuales (como esquinas redondeadas en componentes y unificación estricta de la paleta de colores turquesa) elevará la calidad estética del prototipo.
 
 
