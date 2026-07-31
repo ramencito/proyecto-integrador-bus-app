@@ -1,0 +1,19 @@
+##Seguimiento de correcciones##
+
+Se detectaron errores en el diseño de la aplicacion con la importacion de la libreria material design
+--solicionado--
+
+Se traslado el codigo de HTML commo prueba a desarrollo de aplicaciones de python
+--solucionado--
+
+Problemas con muestra de el mapa en la aplicacion
+--solucionado--
+
+Problema con la traslacion de HTML a Python 
+--solucionado--
+
+Falta de funcionalidad en la barra de busqueda
+--pendiente--
+
+Pin de ubicacion para marcar un punto en el mapa
+--pendiente--
