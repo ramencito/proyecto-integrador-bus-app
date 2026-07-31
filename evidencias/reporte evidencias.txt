@@ -1,8 +1,0 @@
-En las evidencias presentadas se muestra funcionalidad de mapa y de conexión entre las interfases y sus botones.
-Se toma en cuenta la metodología que fue pedida para este proyecto y se espera una conexión entre los colores y adaptabilidad de cada una, manteniendo un uso amigable para usuarios. En pendiente de pruebas a la fecha de escritura
-
-Notar:
-Hace falta el funcionamiento de la barra de búsqueda.
-Al pin marcador seleccionando las diferentes paradas.
-Esto sin embargo no es padecimiento para las pruebas que se planean realizar.
-A su vez aun falta integración de las demás interfases y diseños que vendrán en los siguientes avances
